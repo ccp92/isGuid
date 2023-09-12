@@ -1,6 +1,6 @@
 {
   "name": "check-is-guid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small package to confirm whether a string is a guid",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,11 +15,21 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccp92/isGuid"
+  },
+  "bugs": {
+    "url": "https://github.com/ccp92/isGuid/issues"
+  },
   "keywords": [
     "isGuid",
     "checkGuid",
     "checkIsGuid",
-    "guid"
+    "guid",
+    "check guid",
+    "is guid",
+    "check is guid"
   ],
   "author": "Chris Parsons (ccp92)",
   "license": "MIT",
