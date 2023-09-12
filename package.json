@@ -2,7 +2,8 @@
   "name": "isguid",
   "version": "0.0.1",
   "description": "A small package to confirm whether a string is a guid",
-  "main": "src/index.ts",
+  "main": "libe/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
