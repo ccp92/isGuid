@@ -5,7 +5,9 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\" --fix"
   },
   "keywords": [
     "isGuid",
@@ -14,6 +16,8 @@
   "author": "Chris Parsons (ccp92)",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   },
   "files": [
