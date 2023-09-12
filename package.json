@@ -1,0 +1,15 @@
+{
+  "name": "isguid",
+  "version": "0.0.1",
+  "description": "A small package to confirm whether a string is a guid",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "isGuid",
+    "guid"
+  ],
+  "author": "Chris Parsons (ccp92)",
+  "license": "MIT"
+}
