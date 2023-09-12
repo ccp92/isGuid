@@ -1,6 +1,6 @@
 {
   "name": "check-is-guid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small package to confirm whether a string is a guid",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
